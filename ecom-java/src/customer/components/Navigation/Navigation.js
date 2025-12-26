@@ -146,7 +146,7 @@ export default function Navigation() {
 
   return (
     <div className="bg-white">
-      {/* Mobile menu */}
+      
       <Dialog open={open} onClose={setOpen} className="relative z-40 lg:hidden">
         <DialogBackdrop
           transition
